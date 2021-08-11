@@ -1,0 +1,52 @@
+title: Moad Akhraz (mdakh404)
+author: Moad Akhraz
+email: akhrazmoad14@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+ Hi There ! I'm an Offensive Security enthusiast, interested in red teaming, AppSec && exploit development, got acknowledged by: Toyota, Showmax, Adobe Inc, Xiaomi, U.S Dept Of Defense, United Nations, Sony, MTN Group, Boozt Fashion for finding security vulnerabilities in their applications. 
+show_excerpts: false # set to true to show excerpts on the homepage
+
+paginate: 1
+paginate_path: "/blog/page:num/"
+
+tag_permalink_style: pretty
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+# jekyll-dash date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+dash:
+  date_format: "%b %-d, %Y"
+
+  disqus:
+    shortname: bitbrain-github-io
+
+  # generate social links in footer
+  # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
+  social_links:
+    - url: https://twitter.com/mdakh404
+      icon: twitter-square
+      color: cyan
+    - url: https://www.linkedin.com/in/moad-akhraz-17b83a1ba/
+      icon: itch-io
+      color: red
+    - url: https://github.com/mdakh404
+      icon: github-square
+      color: purple
+
+  show_author: true
+
+  animation_speed: 50
+
+# Build settings
+theme: jekyll-dash
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
+ - liquid-md5
+ - jekyll/tagging
+
+# Replaces the default avatar provider (gravatar)
+avatar_source: github
+github_username: mdakh404
